@@ -5,14 +5,38 @@
   /* margin: 0 auto;*/
   /* padding: 2rem; */
 
+
   font-weight: normal;
 }
 
 .content {
   max-width: 100%;
+  height: auto;
   margin: 0 auto;
   font-weight: normal;
 }
+
+/* style bor */
+
+.badge {
+  height: 35px; 
+  width: auto;
+}
+
+
+.jbtron {
+  height: 43vh;
+  background: linear-gradient(#FFFFFF, #D3F5F7 );
+}
+
+p {
+  font-size: 12px;
+}
+
+/* .card-body {
+  width: 35vw; 
+  height: 15vh;
+} */
 
 main {
   /* padding: 3vw; */
@@ -33,21 +57,18 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    /* display: flex; 
-    place-items: center; */
-    
-  }
-/* 
+  } 
   #app {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    padding: 0 2rem;
+    background: #f4f6fa;
+
+  } 
+/* 
+  .card-body {
+    width: 45vw; 
+    height: 15vh;
   } */
 
   .content {
     place-items: center;
-    /* display: flex; */
-    /* grid-template-rows: 1fr 1fr; */
-    /* padding: 0 2rem; */
   }
 }
