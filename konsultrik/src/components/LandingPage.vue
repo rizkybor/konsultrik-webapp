@@ -2,6 +2,7 @@
 import Jumbotron from "./Jumbotron.vue";
 import KategoriKonsultasiVue from "./KategoriKonsultasi.vue";
 import Rekomendasi from "./Rekomendasi.vue";
+import MarketplaceSection from "./MarketplaceSection.vue";
 </script>
 
 <template>
@@ -13,12 +14,13 @@ import Rekomendasi from "./Rekomendasi.vue";
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 100vh;
+        height: auto;
       "
     >
       <div class="container" style="padding: 50px;">
         <Rekomendasi />
         <KategoriKonsultasiVue />
+        <MarketplaceSection />
       </div>
     </div>
   </div>
