@@ -1,8 +1,17 @@
 <template>
-  <div style="background: white;">
+  <div style="background: white;  position: sticky;
+  top: 0;
+  background-color: #ffffff; /* Ganti dengan warna latar belakang yang sesuai */
+  z-index: 100;" >
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Konsultrik</a>
+        <img
+              src="../assets//img/konsultrik-ico.png"
+              class="card-img-top"
+              alt="Gambar 1"
+              style="width: 15px; margin-right: 10px;"
+            />
+        <a class="navbar-brand" href="#">KonsulTrik</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -20,23 +29,25 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page">
-                 <RouterLink to="/">Konsultasi</RouterLink>
+              <a class="nav-link" aria-current="page">
+                 <RouterLink style="text-decoration:  none; color: black;" to="/">Konsultasi</RouterLink>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link">
-                <RouterLink to="/about">Marketplace</RouterLink>
+                <RouterLink style="text-decoration:  none; color: black;" to="/about">Marketplace</RouterLink>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Tentang Kami</a>
             </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Register as Engineer</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
             <button class="btn btn-info" type="submit">
               Login
             </button>
