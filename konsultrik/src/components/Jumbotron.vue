@@ -56,9 +56,7 @@
             <span class="badge rounded-pill text-bg-info" style="padding-top: 10px;">Distribusi</span>
             <span class="badge rounded-pill text-bg-info" style="padding-top: 10px;">Transmisi & Gardu Induk</span>
             <span class="badge rounded-pill text-bg-info" style="padding-top: 10px;">Energi Primer</span>
-      
         </div>
-
       </div>
     </div>
   </div>
