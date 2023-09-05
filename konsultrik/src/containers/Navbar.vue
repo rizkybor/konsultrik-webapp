@@ -35,11 +35,13 @@
             </li>
             <li class="nav-item">
               <a class="nav-link">
-                <RouterLink style="text-decoration:  none; color: black;" to="/about">Marketplace</RouterLink>
+                <RouterLink style="text-decoration:  none; color: black;" to="/marketplace">Marketplace</RouterLink>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
+              <a class="nav-link">
+                <RouterLink style="text-decoration:  none; color: black;" to="/about">Tentang Kami</RouterLink>
+              </a>
             </li>
           </ul>
           <form class="d-flex" role="search">
