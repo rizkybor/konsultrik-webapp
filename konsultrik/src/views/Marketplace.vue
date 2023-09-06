@@ -33,7 +33,7 @@
           </button>
         </div>
 
-        <div class="dropdown col-2 .col-md-8">
+        <div class="dropdown col-3 .col-md-8">
           <select class="form-select" aria-label="Terbaru">
             <option selected>Terbaru</option>
             <option value="1">One</option>
@@ -42,7 +42,7 @@
           </select>
         </div>
 
-        <div class="col-2 .col-md-5">
+        <div class="col-1 .col-md-5" style="text-align: end;">
           <div
             class="btn-group"
             role="group"
@@ -98,10 +98,10 @@
           <div class="card-body">
             <h5 class="card-title">Filter</h5>
             <hr />
-            <p class="card-text">Kategori</p>
+            <p class="card-cat-title-2">Kategori</p>
 
             <ul class="list-group">
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -110,7 +110,7 @@
                 />
                 Pembangkitan
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -119,7 +119,7 @@
                 />
                 Distribusi
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -128,7 +128,7 @@
                 />
                 Transmisi dan Gardu Induk
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -137,7 +137,7 @@
                 />
                 Energi Primer
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -146,7 +146,7 @@
                 />
                 Green Industrial Cluster Study
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -155,7 +155,7 @@
                 />
                 Property Planning Engineering
               </li>
-              <li class="list-group-item border-0">
+              <li class="list-group-item border-0 card-text">
                 <input
                   class="form-check-input me-1"
                   type="checkbox"
@@ -167,13 +167,14 @@
             </ul>
 
             <hr />
-            <p>Harga</p>
+            <p class="card-cat-title-2">Harga</p>
             <div>
               <input
                 type="email"
                 class="form-control"
                 id="exampleFormControlInput1"
                 placeholder="Harga Minimum"
+                style="margin-bottom: 10px ;"
               />
             </div>
             <div>
@@ -205,10 +206,10 @@
 
             <hr />
 
-            <p>Rating</p>
+            <p class="card-cat-title-2">Rating</p>
             <div>
               <input
-                class="form-check-input me-1"
+                class="form-check-input me-1 card-text"
                 type="checkbox"
                 value=""
                 aria-label="..."
@@ -217,7 +218,7 @@
             </div>
             <hr />
 
-            <p>Pengalaman</p>
+            <p class="card-cat-title-2">Pengalaman</p>
 
             <div>
               <span
@@ -260,7 +261,7 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
@@ -278,7 +279,7 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
@@ -296,7 +297,7 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
@@ -317,7 +318,7 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
@@ -335,7 +336,7 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
@@ -353,12 +354,71 @@
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text">Rp. 35.000/jam</h6>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
                 <p class="card-title">Lorem Ipsum</p>
               </div>
             </div>
           </div>
         </div>
+
+
+        <div class="row">
+          <div class="col-4">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 198.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 193.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
