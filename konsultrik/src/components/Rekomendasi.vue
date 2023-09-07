@@ -19,9 +19,13 @@
             <div class="card-body">
               <h5 class="card-title">Jane Cooper</h5>
               <p class="card-text">Spesialis Distribusi</p>
-              <button class="btn btn-outline-info">Tombol 1</button>
-              <button class="btn btn-outline-info">Tombol 2</button>
-              <button class="btn btn-info mt-2">Konsultasi Sekarang</button>
+              <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-4.png" alt="Ikon" class="icon-img" />
+                5 Tahun</button>
+                <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-5.png" alt="Ikon" class="icon-img" />
+                97%</button>
+              <button class="btn custom-btn">Konsultasi Sekarang</button>
             </div>
           </div>
         </div>
@@ -35,9 +39,13 @@
             <div class="card-body">
               <h5 class="card-title">Jerome Bell</h5>
               <p class="card-text">Spesialis Pembangkit</p>
-              <button class="btn btn-outline-info">Tombol 1</button>
-              <button class="btn btn-outline-info">Tombol 2</button>
-              <button class="btn btn-info mt-2">Konsultasi Sekarang</button>
+              <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-4.png" alt="Ikon" class="icon-img" />
+                5 Tahun</button>
+                <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-5.png" alt="Ikon" class="icon-img" />
+                97%</button>
+              <button class="btn custom-btn">Konsultasi Sekarang</button>
             </div>
           </div>
         </div>
@@ -51,9 +59,13 @@
             <div class="card-body">
               <h5 class="card-title">Annette Black</h5>
               <p class="card-text">Spesialis Energi Primer</p>
-              <button class="btn btn-outline-info">Tombol 1</button>
-              <button class="btn btn-outline-info">Tombol 2</button>
-              <button class="btn btn-info mt-2">Konsultasi Sekarang</button>
+              <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-4.png" alt="Ikon" class="icon-img" />
+                5 Tahun</button>
+                <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-5.png" alt="Ikon" class="icon-img" />
+                97%</button>
+              <button class="btn custom-btn">Konsultasi Sekarang</button>
             </div>
           </div>
         </div>
@@ -68,9 +80,13 @@
             <div class="card-body">
               <h5 class="card-title">Darrel Steward</h5>
               <p class="card-text">Spesialis Transmisi & Gardu Induk</p>
-              <button class="btn btn-outline-info">Tombol 1</button>
-              <button class="btn btn-outline-info">Tombol 2</button>
-              <button class="btn btn-info mt-2">Konsultasi Sekarang</button>
+              <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-4.png" alt="Ikon" class="icon-img" />
+                5 Tahun</button>
+                <button class="btn custom-outlined-btn">
+                <img src="../assets/img/frame-5.png" alt="Ikon" class="icon-img" />
+                97%</button>
+              <button class="btn custom-btn">Konsultasi Sekarang</button>
             </div>
           </div>
         </div>
