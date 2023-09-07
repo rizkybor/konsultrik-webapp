@@ -90,7 +90,7 @@
     <!-- CARD  -->
     <div class="row">
       <!-- SIDEBAR SEARCH  -->
-      <div class="col-3">
+      <div class="col-3" style="padding: 20px;">
         <div
           class="card mb-4"
           style="border: none; border-radius: 10px; align-items: center"
@@ -245,9 +245,102 @@
           </div>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-9" style="padding: 30px;">
         <!-- CARD COLLECT -->
         <div class="row">
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 198.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 193.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-4">
             <div
               class="card mb-4"
@@ -302,9 +395,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+
+        <!-- <div class="row">
           <div class="col-4">
             <div
               class="card mb-4"
@@ -359,65 +453,7 @@
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 198.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 193.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 200.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
