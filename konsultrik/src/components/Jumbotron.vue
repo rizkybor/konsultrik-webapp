@@ -29,18 +29,12 @@
       class="card position-absolute top-50 start-50 translate-middle"
       style="background-color: #ffffff; border: none"
     >
-      <div class="card-body">
+      <div class="card-body show-1">
         <!-- Isi card di sini -->
         <div
-          class="mb-3"
-          style="
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-          "
+          class="mb-3 show-2"
         >
-          <form class="d-flex" role="search">
+          <form role="search">
             <div class="row">
               <div class="col-5 col-sm-5 ">
                 <input
