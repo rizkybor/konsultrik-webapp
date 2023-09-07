@@ -17,7 +17,7 @@
             <div class="card-body">
               <h5 class="card-title">Purcase</h5>
               <p class="card-text">Pesan jasa engineer sesuai dengan kebutuhan pengembangan anda.</p>
-              <button class="btn btn-info mt-2">Lihat Detail</button>
+              <button class="btn custom-btn mt-2">Lihat Detail</button>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
             <div class="card-body">
               <h5 class="card-title">Product</h5>
               <p class="card-text">Temukan produk/jasa kebutuhan anda disini</p>
-              <button class="btn btn-info mt-2">Lihat Detail</button>
+              <button class="btn custom-btn mt-2">Lihat Detail</button>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
             <div class="card-body">
               <h5 class="card-title">Engineer</h5>
               <p class="card-text">Temui engineer ahli kami.</p>
-              <button class="btn btn-info mt-2">Lihat Detail</button>
+              <button class="btn custom-btn mt-2">Lihat Detail</button>
             </div>
           </div>
         </div>

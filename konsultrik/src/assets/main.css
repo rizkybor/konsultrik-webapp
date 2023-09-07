@@ -39,6 +39,7 @@ p {
   height: 15vh;
 } */
 
+
 main {
   /* padding: 3vw; */
 }
@@ -91,6 +92,75 @@ a,
   background: #25cbd6;
 }
 
+.footer-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 40%
+}
+
+/* CSS untuk tombol kustom */
+.custom-btn {
+  background-color: #25cbd6!important;
+  color: #fff!important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efek hover */
+  margin-top: 5px;
+
+  /* Untuk menghilangkan efek seleksi pada teks tombol */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Efek hover */
+.custom-btn:hover {
+  background-color: #1a9ba9!important;
+}
+
+/* CSS untuk tombol kustom outlined */
+.custom-outlined-btn {
+  margin: 2px;
+  background-color: #F2FCFD!important;
+  color: #25cbd6!important;
+  border: 2px solid #25cbd6!important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Efek hover */
+
+  /* Untuk menghilangkan efek seleksi pada teks tombol */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Efek hover */
+.custom-outlined-btn:hover {
+  background-color: #25cbd6!important;
+  color: #fff!important;
+}
+
+.konsul-container-section {
+  display: flex;
+  justify-items: center;
+  grid-gap: 10%;
+  justify-content: center;
+}
+
+/* 
+style="
+display: flex;
+justify-items: center;
+grid-gap: 10%;
+justify-content: center;
+" */
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -102,6 +172,26 @@ a,
     position: static; /* Mengubah posisi menjadi statis */
     /* width: 90%; */
     margin: 0 auto; /* Pusatkan elemen horizontal */
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%; /* Membuat tombol memenuhi lebar container */
+    margin-bottom: 10px; /* Memberi jarak antara tombol */
+  }
+
+  .footer-mobile {
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .konsul-container-section {
+    flex-direction: column;
+    gap: 5em;
   }
 
 

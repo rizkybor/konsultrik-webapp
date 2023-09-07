@@ -42,7 +42,7 @@
         >
           <form class="d-flex" role="search">
             <div class="row">
-              <div class="col-5 .col-md-8">
+              <div class="col-5 col-sm-5 ">
                 <input
                   type="email"
                   class="form-control"
@@ -50,7 +50,7 @@
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="col-5 .col-md-8">
+              <div class="col-4 col-sm-5">
                 <input
                   type="email"
                   class="form-control"
@@ -58,7 +58,7 @@
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="col-2 .col-md-5">
+              <div class="col-3 col-sm-2 ">
                 <button class="btn btn-default-konsult" style="background: #25cbd6; color: white;" type="submit">Login</button>
               </div>
             </div>

@@ -4,12 +4,8 @@
     <h1>Kategori Konsultasi</h1>
     <p>Velit officia consequat duis enim velit mollit</p>
     <div
-      style="
-        display: flex;
-        justify-items: center;
-        grid-gap: 10%;
-        justify-content: center;
-      "
+
+      class="konsul-container-section"
     >
     <div class="circle-container">
       <div class="dots-kategori"></div>

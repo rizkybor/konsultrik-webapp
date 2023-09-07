@@ -50,7 +50,7 @@
               <a class="nav-link" href="#">Register as Engineer</a>
             </li>
           </ul>
-            <button class="btn btn-info" type="submit">
+            <button class="btn custom-btn" type="submit">
               Login
             </button>
           </form>
