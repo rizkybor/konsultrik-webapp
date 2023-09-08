@@ -6,7 +6,7 @@
  
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <div class="card mb-4 p-3" style="border: none; border-radius: 10px; align-items: center;">
             <img
               src="../assets/img/Purcase.png"
@@ -20,8 +20,8 @@
               <button class="btn custom-btn mt-2">Lihat Detail</button>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
+        </div> -->
+        <div class="col-md-6">
           <div class="card mb-4 p-3" style="border: none; border-radius: 10px; align-items: center;">
             <img
               src="../assets/img/Product.png"
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="card mb-4 p-3" style="border: none; border-radius: 10px; align-items: center;">
             <img
               src="../assets/img/Engineer.png"
