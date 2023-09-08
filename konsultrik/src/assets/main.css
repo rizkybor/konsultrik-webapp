@@ -54,7 +54,7 @@ a,
 .card-title {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card-text {
@@ -173,6 +173,10 @@ grid-gap: 10%;
 justify-content: center;
 " */
 
+.card h5 {
+  font-size: 12px
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -183,6 +187,7 @@ justify-content: center;
   /* .show-1 {
     display: inline-table;
   } */
+ 
 }
 
 @media (max-width: 767px) {
