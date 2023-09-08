@@ -1,9 +1,13 @@
+<script setup>
+import Sidebar from "../containers/Sidebar.vue";
+</script>
+
 <template>
   <div class="marketplace">
     <!-- SEARCH  -->
     <form role="search">
       <div class="row">
-        <div class="col-4 .col-md-8">
+        <div class="col-12 col-md-4">
           <input
             type="text"
             class="form-control"
@@ -11,7 +15,7 @@
             placeholder="Tulis spesialisasi, prosedur, nama, ..."
           />
         </div>
-        <div class="col-3 .col-md-8">
+        <div class="col-12 col-md-3">
           <input
             type="text"
             class="form-control"
@@ -19,10 +23,9 @@
             placeholder="Jakarta Selatan"
           />
         </div>
-        <div class="col-1 .col-md-5">
+        <div class="col-12 col-md-1">
           <button type="button" class="btn btn-info rounded-3">
             <span>
-              <!-- <i class="bi bi-bell-fill"></i> -->
               <img
                 src="../assets/img/Frame.png"
                 class="card-img-top"
@@ -33,7 +36,7 @@
           </button>
         </div>
 
-        <div class="dropdown col-3 .col-md-8">
+        <div class="col-12 col-md-3">
           <select class="form-select" aria-label="Terbaru">
             <option selected>Terbaru</option>
             <option value="1">One</option>
@@ -42,7 +45,7 @@
           </select>
         </div>
 
-        <div class="col-1 .col-md-5" style="text-align: end;">
+        <div class="col-12 col-md-1" style="text-align: end">
           <div
             class="btn-group"
             role="group"
@@ -86,168 +89,282 @@
     </form>
 
     <br />
+   
 
     <!-- CARD  -->
     <div class="row">
-      <!-- SIDEBAR SEARCH  -->
-      <div class="col-3">
+        <div class="col-12 col-md-3">
+    <button
+      class="btn btn-primary d-md-none"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#filterCollapse"
+      aria-expanded="false"
+      aria-controls="filterCollapse"
+    >
+      Filter
+    </button>
+      <div class="collapse show" id="filterCollapse">
         <div
           class="card mb-4"
           style="border: none; border-radius: 10px; align-items: center"
         >
-          <div class="card-body">
-            <h5 class="card-title">Filter</h5>
-            <hr />
-            <p class="card-cat-title-2">Kategori</p>
+          <!-- SIDEBAR SEARCH  -->
+          <div style="padding: 5px">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Filter</h5>
+                <hr />
+                <p class="card-cat-title-2">Kategori</p>
 
-            <ul class="list-group">
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Pembangkitan
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Distribusi
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Transmisi dan Gardu Induk
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Energi Primer
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Green Industrial Cluster Study
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Property Planning Engineering
-              </li>
-              <li class="list-group-item border-0 card-text">
-                <input
-                  class="form-check-input me-1"
-                  type="checkbox"
-                  value=""
-                  aria-label="..."
-                />
-                Power Quality Solution
-              </li>
-            </ul>
+                <ul class="list-group">
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Pembangkitan
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Distribusi
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Transmisi dan Gardu Induk
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Energi Primer
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Green Industrial Cluster Study
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Property Planning Engineering
+                  </li>
+                  <li class="list-group-item border-0 card-text">
+                    <input
+                      class="form-check-input me-1"
+                      type="checkbox"
+                      value=""
+                      aria-label="..."
+                    />
+                    Power Quality Solution
+                  </li>
+                </ul>
 
-            <hr />
-            <p class="card-cat-title-2">Harga</p>
-            <div>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Harga Minimum"
-                style="margin-bottom: 10px ;"
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Harga Maksimum"
-              />
-            </div>
-            <br />
-            <div>
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >10 - 100rb</span
-              >
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >100 - 300rb</span
-              >
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >300 - 500rb</span
-              >
-            </div>
+                <hr />
+                <p class="card-cat-title-2">Harga</p>
+                <div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Harga Minimum"
+                    style="margin-bottom: 10px"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Harga Maksimum"
+                  />
+                </div>
+                <br />
+                <div>
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >10 - 100rb</span
+                  >
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >100 - 300rb</span
+                  >
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >300 - 500rb</span
+                  >
+                </div>
 
-            <hr />
+                <hr />
 
-            <p class="card-cat-title-2">Rating</p>
-            <div>
-              <input
-                class="form-check-input me-1 card-text"
-                type="checkbox"
-                value=""
-                aria-label="..."
-              />
-              4 Keatas
-            </div>
-            <hr />
+                <p class="card-cat-title-2">Rating</p>
+                <div>
+                  <input
+                    class="form-check-input me-1 card-text"
+                    type="checkbox"
+                    value=""
+                    aria-label="..."
+                  />
+                  4 Keatas
+                </div>
+                <hr />
 
-            <p class="card-cat-title-2">Pengalaman</p>
+                <p class="card-cat-title-2">Pengalaman</p>
 
-            <div>
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >1 - 5Tahun</span
-              >
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >5 - 10Tahun</span
-              >
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >10 - 20Tahun</span
-              >
-              <span
-                class="badge rounded-pill text-bg-light"
-                style="padding-top: 10px"
-                >>20 Tahun</span
-              >
+                <div>
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >1 - 5Tahun</span
+                  >
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >5 - 10Tahun</span
+                  >
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >10 - 20Tahun</span
+                  >
+                  <span
+                    class="badge rounded-pill text-bg-light"
+                    style="padding-top: 10px"
+                    >>20 Tahun</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-9">
+
+    </div>
+      <div class="col-9" style="padding: 30px">
         <!-- CARD COLLECT -->
         <div class="row">
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 198.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 193.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div
+              class="card mb-4"
+              style="border: none; border-radius: 10px; align-items: center"
+            >
+              <img
+                src="../assets/img/Rectangle 200.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
+                <h6 class="card-text-2">Rp. 35.000/jam</h6>
+                <p class="card-title">Lorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-4">
             <div
               class="card mb-4"
@@ -302,9 +419,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-4">
             <div
               class="card mb-4"
@@ -359,66 +476,7 @@
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 198.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 193.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div
-              class="card mb-4"
-              style="border: none; border-radius: 10px; align-items: center"
-            >
-              <img
-                src="../assets/img/Rectangle 200.png"
-                class="card-img-top"
-                alt="Gambar 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Enjinir Mekanikal, Mesin Gas/Biogas</p>
-                <h6 class="card-text-2">Rp. 35.000/jam</h6>
-                <p class="card-title">Lorem Ipsum</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        </div> -->
       </div>
     </div>
   </div>

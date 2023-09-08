@@ -35,12 +35,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link">
-                <RouterLink style="text-decoration:  none; color: black;" to="/marketplace">Marketplace</RouterLink>
+                <RouterLink style="text-decoration:  none; color: black;" to="/products">Product</RouterLink>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link">
-                <RouterLink style="text-decoration:  none; color: black;" to="/about">Tentang Kami</RouterLink>
+                <RouterLink style="text-decoration:  none; color: black;" to="/about">Riwayat</RouterLink>
               </a>
             </li>
           </ul>

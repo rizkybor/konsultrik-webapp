@@ -179,6 +179,12 @@ justify-content: center;
   }
 }
 
+@media (min-width: 768px) {
+  /* .show-1 {
+    display: inline-table;
+  } */
+}
+
 @media (max-width: 767px) {
   .card {
     position: static; /* Mengubah posisi menjadi statis */
@@ -218,8 +224,7 @@ justify-content: center;
     text-align: center;
     align-items: center; 
   }
-
-
+  
 }
 
 @media (min-width: 1024px) {
