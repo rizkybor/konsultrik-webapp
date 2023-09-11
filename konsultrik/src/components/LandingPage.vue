@@ -18,6 +18,12 @@ import MarketplaceSection from "./MarketplaceSection.vue";
       "
     >
       <div class="container" style="padding: 50px;">
+
+        <br />
+          <br />
+        <br />
+          <h1>Rekomendasi</h1>
+          <p>Konsultasi online dengan konsultan siaga kami</p>
         <Rekomendasi />
         <KategoriKonsultasiVue />
         <MarketplaceSection />

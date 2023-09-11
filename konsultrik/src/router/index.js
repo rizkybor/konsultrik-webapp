@@ -23,8 +23,15 @@ const router = createRouter({
       path: '/products',
       name: 'products',
       component: () => import('../views/ProductView.vue')
+    },
+    {
+      path: '/konsultasi',
+      name: 'konsultasi',
+      component: () => import('../views/Konsultasi.vue')
     }
   ]
 })
 
+
+//  085312711585
 export default router
