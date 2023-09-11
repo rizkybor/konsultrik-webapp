@@ -20,6 +20,7 @@
               alt="Gambar 1"
               style="width: 120px; margin-bottom: 10vw;"
             />
+            <p> PT PRIMA LAYANAN NASIONAL ENJINIRING</p>
           </div>
         </div>
         <div
@@ -29,7 +30,7 @@
           <div class="footer-mobile">
             <div class="footer-column">
               <!-- Isi kolom kedua -->
-              <h4>Footer 1</h4>
+              <h4>Sitemap</h4>
               <p>List 1</p>
               <p>List 2</p>
               <p>List 3</p>
