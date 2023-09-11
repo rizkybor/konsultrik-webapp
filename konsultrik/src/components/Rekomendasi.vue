@@ -1,12 +1,5 @@
 <template>
   <div class="mt-5">
-    <br />
-    <h1>Rekomendasi</h1>
-    <p>Konsultasi online dengan konsultan siaga kami</p>
-
-    <br />
-    <br />
-    <br />
     <div class="container">
       <div class="row">
         <div class="col-md-3">
